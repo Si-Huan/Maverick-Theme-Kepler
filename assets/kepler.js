@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 /* eslint-disable no-undef */
-console.log(" %c SiHuan 喜欢东方 Project 里的人物 Sakuya 呢 %c http://wiki.sakuya.love/ ", "color: #5dac81; background: #58b2dc; padding:5px;", "padding:5px;");
+console.log(" %c SiHuan 喜欢幻想乡的 Sakuya 呢 %c http://wiki.sakuya.love/ ", "color: #5dac81; background: #58b2dc; padding:5px;", "padding:5px;");
 
 var initPage = function (refresh) {
     $('.toggle_sidebar').click(function () {
