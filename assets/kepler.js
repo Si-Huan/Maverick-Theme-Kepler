@@ -1,12 +1,12 @@
 /* eslint-disable no-console */
 /* eslint-disable no-undef */
-console.log(' %c Maverick & Kepler By AlanDecode %c https://www.imalan.cn/ ', 'color: #fadfa3; background: #23b7e5; padding:5px;', 'padding:5px;');
+console.log(" %c SiHuan 喜欢东方 Project 里的人物 Sakuya 呢 %c http://wiki.sakuya.love/ ", "color: #5dac81; background: #58b2dc; padding:5px;", "padding:5px;");
 
 var initPage = function (refresh) {
     $('.toggle_sidebar').click(function () {
         $(this).parent().parent().toggleClass('open');
     });
-    $('.go-external').click(function() {
+    $('.go-external').click(function () {
         window.open($(this).siblings('a').attr('href'), '_blank');
     });
 
@@ -118,7 +118,7 @@ var initPage = function (refresh) {
         }
     }
 };
-
+var sakuya = "\u5468\u5609\u8fb0";
 (function () {
     $(document).ready(function () {
         initPage(false);
